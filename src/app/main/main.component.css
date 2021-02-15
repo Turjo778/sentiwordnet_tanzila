@@ -1,0 +1,86 @@
+.card {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(60, 71, 17, 0.582);
+    border-radius: 30px;
+    margin-left: 20px;
+    
+  }
+  
+    
+   
+  .input {
+    width: auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .box input{
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 200px;
+  }
+  .box label{
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+  h1 {
+    font-size: 20px;
+  }
+.box{
+  background-color: rgba(60, 71, 17, 0.582);
+  color: rgb(75, 5, 5);
+  border: 2px solid rgb(26, 23, 23);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30px;
+  width: 450px;
+  text-align: center;
+  margin:auto;
+
+} 
+  .auto{
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+ 
+ /* Clear floats  */
+  /* form.example::after {
+    /* content: "";
+    clear: both;
+    display: table;
+  }  */
+    
+    
+  /* When the input field gets focus, change its width to 100% */
+  /* input[type=text]:focus {
+    width: 100%;
+  } */
+  
+.container-1{
+  width: auto;
+}
+.contA{
+  width:auto;
+}
+
+/* .mainBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.xyz{
+  display:flex;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+  
+
+#srch{
+  font-size: 20px;
+ 
+}
