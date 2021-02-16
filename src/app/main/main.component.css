@@ -7,11 +7,14 @@
     margin-left: 20px;
     
   }
-  
+  .row{
+    grid-auto-flow: column;
+  }
     
    
   .input {
     width: auto;
+    text-align: center;
   }
   * {
     box-sizing: border-box;
@@ -32,41 +35,38 @@
     font-size: 20px;
   }
 .box{
-  background-color: rgba(60, 71, 17, 0.582);
-  color: rgb(75, 5, 5);
-  border: 2px solid rgb(26, 23, 23);
-  margin: 5px;
-  padding: 5px;
-  border-radius: 30px;
-  width: 450px;
-  text-align: center;
+  background-color: #b5ffb6;
+  
+  padding: 30px 40px 30px 40px;
+  border-radius: 5px;
+  width: 60%;
   margin:auto;
 
 } 
   .auto{
-    border-radius: 20px;
+    border: none;
     margin-left: 20px;
+    /* padding-left:10%; */
+    border-bottom: 3px solid#a6f5ff;
+    width:30%;
+    text-align: center;
+    
   }
- 
- /* Clear floats  */
-  /* form.example::after {
-    /* content: "";
-    clear: both;
-    display: table;
-  }  */
-    
-    
-  /* When the input field gets focus, change its width to 100% */
-  /* input[type=text]:focus {
-    width: 100%;
-  } */
-  
+
+  input[type=text]:focus{
+    outline:none;
+    border: none;
+    border-bottom: 3px solid#0291a3;
+    transition: 0.3s;
+  }
+
 .container-1{
   width: auto;
 }
 .contA{
   width:auto;
 }
+
 
 /* .mainBox{
   display: flex;
@@ -76,11 +76,41 @@
 .xyz{
   display:flex;
   justify-content: center;
-  margin: 40px 0px 40px 0px;
+  margin: 40px 0px 50px 0px;
+  
 }
   
 
 #srch{
   font-size: 20px;
+ 
+}
+.boxA{
+  width:100%;
+ 
+}
+.boxB{
+  width: 200px;
+  padding-left:50px;
+  text-align: center;
+}
+
+/* sidebar */
+.progress-bar{
+  width: 100%;
+}
+@media screen and (max-width: 791px) {
+  .column {
+    width: 100%;
+
+  }
+  .box{
+    width: 100%;
+  }
+  .boxB{
+    margin:auto;
+    text-align: center;
+    width: 200px;
+  }
  
 }
